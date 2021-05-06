@@ -1,0 +1,11 @@
+{
+  "name": "retreat_program",
+  "version": "1.0.0",
+  "description": "a landing page for a retreat program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saira",
+  "license": "ISC"
+}
