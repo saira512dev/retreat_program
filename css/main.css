@@ -43,7 +43,6 @@ body {
   background: #3aaa59 url(/images/huh.jpg) no-repeat;
   min-height: 100%;
   min-width: 100%;
-  overflow: hidden;
   opacity: 0.9;
 }
 
@@ -55,8 +54,6 @@ body {
   position: absolute;
   top: 0%;
   left: 0%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 #text-content {
@@ -71,15 +68,21 @@ body {
   font-size: 50px;
   line-height: 1.2;
   color: #000;
+  text-transform: uppercase;
+}
+
+#text-content #secondary-text {
+  margin: 10px;
+  color: #000;
+  position: relative;
+  left: 5%;
 }
 
 .btn {
   padding: 10px 30px;
   background: #fff;
-  color: #3aaa59;
   border: 1px #3aaa59 solid;
   border-radius: 5px;
-  margin-top: 20px;
   opacity: 0.8;
   position: relative;
   left: 30%;
@@ -114,7 +117,7 @@ body {
   top: 5px;
   width: 250px;
   height: 280px;
-  border-radius: 25px 25px 25px 25px;
+  border-radius: 25px;
   border: 2px solid #3aaa59;
   text-align: center;
   background: #fff;
